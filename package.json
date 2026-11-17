@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-google-hotels-prices",
+  "version": "1.0.0",
+  "description": "MCP server for Google Hotels Prices: hotel prices by destination and dates from Google Hotels.",
+  "type": "module",
+  "bin": {
+    "mcp-google-hotels-prices": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-hotels",
+    "hotel-prices",
+    "travel",
+    "scraper",
+    "apify",
+    "mcp",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/google-hotels-prices",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-google-hotels-prices"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-google-hotels-prices"
+}

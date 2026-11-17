@@ -1,0 +1,33 @@
+{
+  "name": "mcp-google-hotels-prices",
+  "displayName": "Google Hotels Prices",
+  "version": "1.0.0",
+  "description": "MCP server for Google Hotels Prices: hotel prices by destination and dates from Google Hotels.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-google-hotels-prices",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "google-hotels",
+    "hotel-prices",
+    "travel",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "google-hotels",
+    "hotel-prices",
+    "travel",
+    "scraper",
+    "apify",
+    "mcp"
+  ],
+  "mcpServers": ".mcp.json"
+}
