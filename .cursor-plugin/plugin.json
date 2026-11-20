@@ -1,7 +1,7 @@
 {
   "name": "mcp-google-hotels-prices",
   "displayName": "Google Hotels Prices",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Google Hotels Prices: hotel prices by destination and dates from Google Hotels.",
   "author": {
     "name": "Mamba Labs",
