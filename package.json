@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-google-hotels-prices",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MCP server for Google Hotels Prices: hotel prices by destination and dates from Google Hotels.",
   "type": "module",
   "bin": {
